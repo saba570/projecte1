@@ -1,0 +1,93 @@
+body{
+    background: rgb(171, 192, 212);
+    margin:0;
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+}
+.top{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.header h1{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+    vertical-align: top;
+    font-family: Helvetica;
+    color: rgb(52, 52, 214);
+
+}
+.menu{
+    float: right;
+    font-family: sans-serif;
+}
+.menu li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 15px;
+}
+.menu a:hover{
+    background: rgb(75, 75, 212); ;
+    border-radius: 5px;
+    color:white;
+}
+.col{
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.col h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.row{
+    text-align: center;
+    
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: black;
+    text-decoration: none;    
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.cajacookies {
+    display: none;
+    box-shadow: 0px 0px 5px 5px #808080;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+
+.cajacookies button {
+    color: black;
+    font-family: sans-serif;
+}

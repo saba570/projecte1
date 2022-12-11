@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1"> 
+    <title>Immoroig Immobiliaries</title>  
+    <meta name="description" content= "En ImmoRoig ens dediquem a la promoció immobiliaria, a la venda i lloguer de pisos i oficines, ubicats a Mont-Roig.">
+    <meta name="robots" content= "index, follow">
+    <link rel="shortcut icon" href="images/icono.ico" type="image/x-icon"><link rel="shortcut icon" href="images/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "ImmoRoig",
+      "image": "",
+      "@id": "",
+      "url": "",
+      "telephone": "692 883 533",
+      "priceRange": "200K - 350K",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer d'Agustí Sardà, 8",
+        "addressLocality": "Mont-Roig del Camp",
+        "postalCode": "43300",
+        "addressCountry": "ES"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      } 
+    }
+    </script>
+        
+    <script>
+        
+        /* ésto comprueba la localStorage si ya tiene la variable guardada */
+        function compruebaAceptaCookies() {
+          if(localStorage.aceptaCookies != 'true'){
+            cajacookies.style.display = 'block';
+          }
+        }
+        
+        /* aquí guardamos la variable de que se ha
+        aceptado el uso de cookies así no mostraremos
+        el mensaje de nuevo */
+        function aceptarCookies() {
+          localStorage.aceptaCookies = 'true';
+          cajacookies.style.display = 'none';
+        }
+        
+        /* ésto se ejecuta cuando la web está cargada */
+        $(document).ready(function () {
+          compruebaAceptaCookies();
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.png" height="85" width="135" alt="">
+            <h1>IMMOBILIARIES MONTROIG</h1>
+            <ul class="menu top">
+                <li><a href="index.html">INICI</a></li>
+                <li><a href="html/pisos.html">PISOS</a></li>
+                <li><a href="html/contacte.html">CONTACTE</a></li>
+                <li><a href="html/saber.html">SOBRE NOSALTRES</a></li>
+            </ul>    
+        </div>
+            <img src="images/edificis.jpg"  height="414" width="1200" alt="">
+                <div class="row">
+                    <div class="col">
+                        <h2>TREBALL</h2>
+                            <img src="images/treball.jpg" height="200" width="270" alt="">
+                            <p>En ImmoRoig sabem l'important que és per a tu sàpiguer com treballem 
+                                i desenvpolupem el teu cas, es per aixó que disposem dels millors experts
+                                darrera del teu cas de manera personalitzada per tal de assolir alló que ens proposem. </p>
+                    </div>
+                    <div class="col">
+                        <h2>EXPERIÈNCIA</h2>
+                            <img src="images/experiencia.jpg" height="200" width="270" alt="">
+                        <p>En ImmoRoig comptem amb més de 30 anys d'experiencia en el sector immobiliari,
+                            es per això que ens trobem al capt davant de industria, siguent reconeguts 
+                            de manera nacional i fins i tot internacional. </p>
+                    </div>
+                    <div class="col">
+                        <h2>EXIT</h2>
+                            <img src="images/motivacio.jpg" height="200" width="270" alt="">
+                        <p>Seguint la nostra regla TREBALL + EXPERIÈNCIA = ÈXIT, des d'ImmoRoig 
+                            assegurem l'exit del teu cas, gràcies a l'experiència que hi portem
+                            a les espatlles, juntament amb la dedicació i l'esforç que hi posem a l'hora de treballar, ÈXIT GARANTIT.</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <span>
+                        <a href="html/cookies.html">Política de cookies</a>  | <a href="html/privacitat.html">Política de privacitat</a> | <a href="html/termes.html">Termes i Condicions</a> 
+                    </span>
+                </div>
+                <div id="cajacookies">
+                    <p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Acceptar i tancar aquesta finsetra</button>
+                    Aquest lloc web fa servir cookies, si román dins accepta el seu ús.
+                    Pot llegir més sobre l'ús de cookies en la nostra <a href="html/ookies.html">política de cookies</a>.
+                    </p>
+                </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+.top{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.menu{
+    float: right;
+    font-family: sans-serif;
+
+}
+.menu li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 15px;
+}
+.menu a:hover{
+    background: rgb(75, 75, 212); ;
+    border-radius: 5px;
+    color:white;
+}
+
+body{
+    background: rgb(171, 192, 212);
+    margin:0;
+}
+
+.info{
+    background-color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.info-top{
+    display: inline-block;
+    vertical-align: top;
+    padding-inline: 70px;
+    width: 450px;
+    text-align: justify;
+    border-radius: 15px;
+    background-color: rgb(214, 214, 214);
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.mapa{
+    display: inline-block;
+    vertical-align: top;
+    padding-inline: 0px;
+    width: 380px;
+    text-align: justify;
+    
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+.botons{
+    width: 100%;
+    background: #fdfdfd;
+    border: 1px solid rgb(78, 78, 78);
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    margin: 0px 0;
+    font-size: 16px;
+}
+
+.enviar{
+    width: 100%;
+    background: #a8a8a8;
+    border: black;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.formtitol{
+    text-align: center;
+    
+}
+.row{
+    font-family: sans-serif;
+    width: 93%;
+    text-align: justify;
+    border-radius: 15px;
+    background-color: rgb(214, 214, 214);
+    margin-bottom: 50px;
+    margin-left: 40px;
+    padding: 15px;
+    justify-content: center;
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: black;
+    text-decoration: none;    
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}

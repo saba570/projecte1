@@ -1,0 +1,78 @@
+.top{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.menu{
+    float: right;
+    font-family: sans-serif;
+
+}
+.menu li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 15px;
+}
+.menu a:hover{
+    background: rgb(75, 75, 212); ;
+    border-radius: 5px;
+    color:white;
+}
+
+body{
+    background: rgb(171, 192, 212);
+    margin: 0px;
+}
+
+.container{
+    width: 1200px;
+    background: white;
+    margin: auto;
+    border-radius: 5px; 
+}
+
+.botons{
+    width: 100%;
+    background: #fdfdfd;
+    border: 1px solid rgb(84, 83, 107);
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    margin: 0px 0;
+    font-size: 16px;
+}
+
+.termes{
+    padding-inline: 50px;
+    text-align: justify;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+
+    
+    border-radius: 15px;
+    background-color: rgb(214, 214, 214);
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    justify-content: center;
+
+}
+.footer{
+    overflow: hidden;
+    
+}
+.footer a{
+    color: black;
+    text-decoration: none;    
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}

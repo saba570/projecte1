@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImmoRoig: Contacta amb nosaltres</title>
+    <link rel="shortcut icon" href="../images/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contacte.css">       
+</head>
+
+<body>
+   <div class="container">
+        <div class="header">
+            <img src="../images/logo.png" height="85" width="135" alt="">
+            <ul class="menu top">
+                <li><a href="../index.html">INICI</a></li>
+                <li><a href="pisos.html">PISOS</a></li>
+                <li><a href="contacte.html">CONTACTE</a></li>
+                <li><a href="saber.html">SOBRE NOSALTRES</a></li>
+            </ul>
+        </div>
+        <div class="info"> 
+            <div class="info-top">
+                <h3>Quixes o suggeriments</h3>
+                <p>Si vols fer-nos algun tipus de suggeriment per a la millora del portal, 
+                    o bé tens algun tipus de queixes sobre el funcionament o els anuncis 
+                    inclosos, utilitza aquest formulari que el vam rebre directament l'equip 
+                    de suport del portal ImmoRoig.</p>
+                    <h3>Informació immobles</h3>
+                    <p>Si vols demanar més infomacion sobre alguns dels immobles d'aquest 
+                        portal, utilitza els formularis que hi ha a la fitxa de cada un dels anuncis.</p>
+                <h3>Contacte ImmoRoig</h3>
+                <p><strong>ADREÇA</strong></p>
+                <p>Carrer d'Agustí Sardà, 8</p>   
+                <p><strong>TELÉFON</strong></p>
+                <p>692 883 533 / 622 568 168</p>
+                <p><strong>FAX</strong></p>
+                <p>622 763 132</p>
+                <p><strong>EMAIL</strong></p>
+                <p>atencióIM@immoroig.com</p>
+            </div>    
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.5944335606946!2d0.9585641564762041!3d41.086719867323794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a1464347508797%3A0x27ddfe61711e01a7!2sCarrer%20d&#39;Agust%C3%AD%20Sard%C3%A0%2C%208%2C%2043300%20Mont-roig%20del%20Camp%2C%20Tarragona!5e0!3m2!1ses!2ses!4v1670749473197!5m2!1ses!2ses" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="row">
+            <form action="contacte.php" method="post">   
+                <div class="formtitol">
+                FORMULARI DE CONTACTE
+                </div>
+                <fieldset>
+                    <legend>DADES PERSONALS</legend>
+                <div class="col">    
+                    Nom<br>
+                    <input class="botons" type="text" name="nom" value="" placeholder=""><br>
+                    <br>Cognoms<br>
+                    <input class="botons" type="text" name="cognoms" value="" placeholder=""><br>
+                    <br>Correu electrònic<br>
+                    <input class="botons" type="text" name="email" value="" placeholder=""><br>
+                    <br>Teléfon de contacte<br>
+                    <input class="botons" type="text" name="teléfon" value="" placeholder=""><br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    Comentari:<br>
+                <textarea name="comentari" cols="153" rows="5"></textarea>
+                </fieldset>
+                <br>
+                <input name="acceptar_privacitat" type="checkbox" value="acceptar_privacitat"> Accepto la <a href="privacitat.html">política de privacitat</a> <br>
+                <br>
+                <input name="acceptar_rebre" type="checkbox" value="acceptar_rebre"> Desitjo rebre informació comercial.<br>
+                <input class="enviar" type="submit" name="enviar" value="ENVIAR">
+            </form>
+        </div>
+        <div class="footer">
+            <span>
+                <a href="cookies.html">Política de cookies</a>  | <a href="privacitat.html">Política de privacitat</a> | <a href="termes.html">Termes i Condicions</a> 
+            </span>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
