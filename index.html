@@ -9,12 +9,13 @@
     <!--Metadada per a fer escalable el document en les diferents mides de pantalla.-->
     <title>Immoroig Immobiliaries</title> 
     <meta name="description" content= "En ImmoRoig ens dediquem a la promoció immobiliaria, a la venda i lloguer de pisos i oficines, ubicats a Mont-Roig.">
+    <!--Metadada per al que el navegador tingui una petita descripció del lloc web i a l'hora de la recerca, la teva pgina web estigui en posicionada.-->
     <meta name="robots" content= "index, follow">
-    <!--Enllaç al fabvicon-->
+    <!--Enllaç del fabvicon-->
     <link rel="shortcut icon" href="images/icono.ico" type="image/x-icon"><link rel="shortcut icon" href="images/icono.ico" type="image/x-icon">
     <!--Enllaç del full d'estíls-->
     <link rel="stylesheet" href="css/index.css">
-    
+   
     <!--En aquest apartat incloc l'script on es troba la semànitca generada a través del generador schema.org-->
     <script type="application/ld+json">
     {
@@ -49,7 +50,8 @@
       } 
     }
     </script>
-    <!--Script extret de la seguent web, per tal de poguer demanar a l'usuari que accepti es cookies.-->
+    <!--Script extret de la seguent web https://jnjsite.com/sencillo-mensaje-de-aceptar-cookies-para-tu-web/, 
+    per tal de poguer demanar a l'usuari que accepti els cookies.-->
     <script>
         /* ésto comprueba la localStorage si ya tiene la variable guardada */
         function compruebaAceptaCookies() {
@@ -73,10 +75,13 @@
     </script>
 </head>
 <body>
+    <!--Primer div on es trobarà el contenidor de tot el document.-->
     <div class="container">
+        <!--Div on es trobarà tot el contignut de la capçelera amb el seu logo, titol i index.-->
         <div class="header">
             <img src="images/logo.png" height="85" width="135" alt="">
             <h1>IMMOBILIARIES MONTROIG</h1>
+            <!--Div on es troben els diferents links del index.-->
             <ul class="menu top">
                 <li><a href="index.html">INICI</a></li>
                 <li><a href="html/pisos.html">PISOS</a></li>
@@ -84,8 +89,10 @@
                 <li><a href="html/saber.html">SOBRE NOSALTRES</a></li>
             </ul>    
         </div>
+        <!--Imatge panoràmica-->
             <img src="images/edificis.jpg"  height="414" width="1200" alt="">
                 <div class="row">
+                    <!--Tres div seguits per a separar les tres columnes de l'index.-->
                     <div class="col">
                         <h2>TREBALL</h2>
                             <img src="images/treball.jpg" height="200" width="270" alt="">
@@ -96,30 +103,30 @@
                     <div class="col">
                         <h2>EXPERIÈNCIA</h2>
                             <img src="images/experiencia.jpg" height="200" width="270" alt="">
-                        <p>En ImmoRoig comptem amb més de 30 anys d'experiencia en el sector immobiliari,
-                            es per això que ens trobem al capt davant de industria, siguent reconeguts 
-                            de manera nacional i fins i tot internacional. </p>
+                            <p>En ImmoRoig comptem amb més de 30 anys d'experiencia en el sector immobiliari,
+                                es per això que ens trobem al capt davant de industria, siguent reconeguts 
+                                de manera nacional i fins i tot internacional. </p>
                     </div>
                     <div class="col">
                         <h2>ÈXIT</h2>
                             <img src="images/motivacio.jpg" height="200" width="270" alt="">
-                        <p>Seguint la nostra regla TREBALL + EXPERIÈNCIA = ÈXIT, des d'ImmoRoig 
-                            assegurem l'exit del teu cas, gràcies a l'experiència que hi portem
-                            a les espatlles, juntament amb la dedicació i l'esforç que hi posem a l'hora de treballar, ÈXIT GARANTIT.</p>
+                            <p>Seguint la nostra regla TREBALL + EXPERIÈNCIA = ÈXIT, des d'ImmoRoig 
+                                assegurem l'exit del teu cas, gràcies a l'experiència que hi portem
+                                a les espatlles, juntament amb la dedicació i l'esforç que hi posem a l'hora de treballar, ÈXIT GARANTIT.</p>
                     </div>
                 </div>
+                <!--Div per a crear un peu de pàgina, on es troba les politiques de cookies, de privacitat i els terme si condicions de la pàgina web.-->
                 <div class="footer">
                     <span>
                         <a href="html/cookies.html">Política de cookies</a>  | <a href="html/privacitat.html">Política de privacitat</a> | <a href="html/termes.html">Termes i Condicions</a> 
                     </span>
                 </div>
+                    <!--Div on es troba l'apartat per acceptar les cookies-->
                 <div id="cajacookies">
                     <p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Acceptar i tancar aquesta finsetra</button>
                     Aquest lloc web fa servir cookies, si román dins accepta el seu ús.
-                    Pot llegir més sobre l'ús de cookies en la nostra <a href="html/cookies.html">política de cookies</a>.
-                    </p>
+                    Pot llegir més sobre l'ús de cookies en la nostra <a href="html/cookies.html">política de cookies</a>.</p>
                 </div>
     </div>
-    
 </body>
 </html>
